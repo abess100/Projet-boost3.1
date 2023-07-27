@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    padding: 0
+}
+header{
+    display:flex;
+    gap:25px;
+}
+header>img{
+    position: relative;
+    bottom:10px;
+}
+.first{
+    background-image: url("disney image/eu_disney_header_fa13007d.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.doc{
+    padding:25px 100px;
+}
+.photo{
+    display: flex;
+    gap:10px;
+}
+
+
+.sect2{
+    background-image: url("disney image/eu_dmm_promo-short-hero_r_0e612f5e.jpeg");
+    background-size: cover;
+    color: white;
+    height: 350px;
+}
+.dac{
+    height: 450px;
+}
+.sect1{
+    background-color: rgb(247, 243, 243);
+}
+.footer{
+    display:flex;
+    justify-content: center;
+    gap:5px;
+}
+footer{
+    font-size: 12px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   height: 200px;
+   color: black;
+   text-decoration: none;
+}
+.poly{
+    font-size: 12px; 
+}
